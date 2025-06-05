@@ -46,7 +46,7 @@ plt.plot(df['x'], smoothed_y, label='Smoothed')
 plt.xlabel('Ramman Shift (cm$^-1$)')
 plt.ylabel('Intensity')
 plt.title('Background Corrected and Smoothed Raman Spectra')
-plt.grid(True)
+#plt.grid(True)
 plt.legend()
 plt.show
 
